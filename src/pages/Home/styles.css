@@ -1,0 +1,42 @@
+:root {
+    --blue-color: #2188FF;
+    --yellow-color: #FFDF5D;
+    --dark-color: #343434;
+    --purple-color: #6F42C1;
+    --purple-light-color: #8A63D2;
+    --gray-color: #F2F2F2;
+    --gray-0-color: #FAFBFC;
+    --gray-1-color: #D1D5DA;
+    --gray-2-color: #959DA5;
+    --gray-3-color: #6A737D;
+    --gray-4-color: #586069;
+    --gray-5-color: #24292E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {margin: 0; padding: 0; border: none; box-sizing: border-box;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+section {
+    background: var(--gray-color);
+    width: 100%;
+    display: flex;
+    padding: 100px 5%;
+    height: 100vh;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 450px;
+    overflow: hidden scroll;
+}
+
+#root {
+    height: 100vh; /*Ocupa a altura total do monitor*/
+}
